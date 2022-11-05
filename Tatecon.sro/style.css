@@ -1,0 +1,186 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: sans-serif;
+}
+
+ul {
+  list-style: none;
+}
+
+.active{
+  color: rgb(2, 219, 248);
+  text-decoration: underline;
+  font-weight: bold;
+}
+
+ body , html {
+  overflow-x: hidden;
+ }
+.navbar {
+  position: absolute;
+  top: 0;
+  left: 0;
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px;
+  color: whitesmoke;
+}
+
+.nav-links {
+  display: flex;
+  align-items: center;
+}
+
+.nav-links li{
+  margin: 0 30px;
+}
+/*
+.navbar nav-links li a:hover{
+  color:aqua;
+  transition: .3s;
+}
+*/
+header {
+  width: 100vw;
+  height: 100vh;
+  background-image: url('./img/background1.jpg');
+  background-position:center;
+  background-repeat: no-repeat;
+  background-size:cover;
+  display: flex;
+  align-items: flex-end;
+  justify-content: center;
+  
+}
+
+a {
+  text-decoration: none;
+}
+
+.header-content{
+  margin-bottom: 150px;
+  color: whitesmoke;
+  text-align: center;
+}
+
+.header-content h2{
+  font-size: 8vmin;
+}
+
+.line{
+  width: 150px;
+  height: 4px;
+  background: rgb(2, 219, 248);
+  margin: 10px auto;
+  border-radius: 5px;
+}
+
+.header-content h1 {
+  font-size: 6vmin;
+  margin-top: 30px;
+  margin-bottom: 20px;
+}
+
+.ctn {
+  padding: 8px 15px;
+  background: rgb(11, 117, 204);
+  border-radius: 30px;
+  color: white;
+}
+
+section{
+  width: 80%;
+  margin: 80px auto;
+}
+.title{
+  text-align: center;
+  font-size: 4vmin;
+  color: blue;
+}
+.row{
+  display: flex;
+  align-items: center;
+  width: 100%;
+  justify-content: space-between;
+
+}
+.row .col {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+}
+.events .row{
+  margin-top: 50px;
+}
+h4 {
+  font-size: 3vmin;
+  color: blue;
+  margin: 20px auto;
+}
+p {
+  color: black;
+  padding: 0px 40px;
+}
+.events .ctn {
+  margin-top: 30px;
+}
+
+.explore{
+  width: 100%;
+  height: 100vh;
+  background-image: url(./img/consulting02.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  display: flex;
+  align-items: center;
+}
+
+.explore-content{
+  width: 60%;
+  padding: 50px;
+  color: whitesmoke;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+.explore-content h1{
+  font-size: 7vmin;
+  margin: 50px;
+}
+.explore-content .line{
+  margin-bottom: 50px;
+}
+.explore-content p{
+  color: white;
+}
+.explore-content .ctn{
+  margin-top: 40px;
+}
+
+.footer{
+  width: 100%;
+  min-height: 200px;
+  padding: 20px 80px;
+  margin: 0;
+  background: rgb(61, 61, 61);
+  text-align: center;
+}
+.footer p{
+  color: white;
+  margin: 20px auto;
+  padding: 20px auto;
+}
+
+/*
+#logo{
+  padding: 600px;
+  background: url('./img/logo.svg');
+  background-repeat: no-repeat;
+  background-size: auto;
+  background-position: left;
+}
+*/
