@@ -37,6 +37,9 @@ ul {
 .nav-links li{
   margin: 0 30px;
 }
+.nav-link:hover {
+  color:aqua;
+}
 /*
 .navbar nav-links li a:hover{
   color:aqua;
@@ -71,10 +74,10 @@ a {
 }
 
 .line{
-  width: 150px;
+  width: 30%;
   height: 4px;
-  background: rgb(2, 219, 248);
-  margin: 10px auto;
+  background: rgb(53, 53, 53);
+  margin: 10px auto 30px;
   border-radius: 5px;
 }
 
@@ -166,7 +169,7 @@ p {
   min-height: 200px;
   padding: 20px 80px;
   margin: 0;
-  background: rgb(61, 61, 61);
+  background: rgb(53, 53, 53);
   text-align: center;
 }
 .footer p{
@@ -184,3 +187,24 @@ p {
   background-position: left;
 }
 */
+
+/* Animations */
+@keyframes example {
+  0% {
+    opacity: 0;
+  }
+  100% {
+    opacity: 1;
+  }
+}
+.animate-opacity {
+opacity:0;
+}
+.animate {
+  animation: example 1s forwards;
+  -webkit-animation: example 1s forwards;
+}
+
+.title-heading {
+  color: black;
+}

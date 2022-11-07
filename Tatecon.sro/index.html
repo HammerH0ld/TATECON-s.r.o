@@ -7,19 +7,18 @@
     <meta name="author" content="Lukas Rathausky" />
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <link rel="stylesheet" type="text/css" href="style.css" />
-    <script src="script.js"></script>
     <script src="https://code.jquery.com/jquery-3.6.1.min.js" integrity="sha256-o88AwQnZB+VDvE9tvIXrMQaPlFFSUTR+nldQm1LuPXQ=" crossorigin="anonymous"></script>
   </head>
   <body>
     <nav class="navbar">
       <img style="width:220px; height:74px" src="./img/logo.png"> </img>
       <ul class="nav-links">
-        <li class="active"><a href="#"></a>Home</li>
-        <li><a href="#"></a>Explore</li>
-        <li><a href="#"></a>About</li>
-        <li><a href="#"></a>Test</li>
-        <li><a href="#"></a>Test</li>
-        <li class="ctn"><a href="#"></a>Learn more</li>
+        <li class="active"><a class="nav-link" href="#">Home</a>  </li>
+        <li><a class="nav-link" href="#">Explore</a></li>
+        <li><a class="nav-link" href="#">About</a></li>
+        <li><a class="nav-link" href="#">Test</a></li>
+        <li><a class="nav-link" href="#">Test</a></li>
+        <li class="ctn"><a href="#">Learn more</a></li>
       </ul>
     </nav>
     <header>
@@ -33,11 +32,11 @@
 
     <section class="event">
       <div class="title">
-        <h1>Poskytované služby</h1>
+        <h1 class="title-heading">Poskytované služby</h1>
         <div class="line"></div>
       </div>
       <div class="row">
-        <div class="col">
+        <div class="animate-opacity col">
           <img src="./img/service02.jpg" alt="no img" />
           <h4>Lorem Ipsum</h4>
           <p>
@@ -48,7 +47,7 @@
           </p>
           <a href="#" class="ctn">Learn more</a>
         </div>
-        <div class="col">
+        <div class="animate-opacity col">
           <img src="./img/service02.jpg" alt="no img" />
           <h4>Lorem Ipsum</h4>
           <p>
@@ -83,6 +82,7 @@
       <p>Copyright © 2022 Tatecon s.r.o All rights reserved</p>
     </section>
   </body>
+  <script src="script.js"></script>
 </html>
 
 <!--<h1 class="hero__heading"><span>Ta</span>lent</h1>
