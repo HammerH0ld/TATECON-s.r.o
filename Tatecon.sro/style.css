@@ -36,7 +36,6 @@ ul {
 
 .nav-links li{
   margin: 0 30px;
-  color: white;
 }
 .nav-link:hover {
   color:aqua;
@@ -92,7 +91,7 @@ a {
   padding: 8px 15px;
   background: rgb(11, 117, 204);
   border-radius: 30px;
-  color: rgb(7,67,190);
+  color: white;
 }
 
 section{
