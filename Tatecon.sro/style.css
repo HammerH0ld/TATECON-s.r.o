@@ -10,7 +10,7 @@ ul {
 }
 
 .active{
-  color: white;
+  color: rgb(2, 219, 248);
   text-decoration: underline;
   font-weight: bold;
 }
@@ -36,6 +36,7 @@ ul {
 
 .nav-links li{
   margin: 0 30px;
+  color: white;
 }
 .nav-link:hover {
   color:aqua;
