@@ -10,7 +10,7 @@ ul {
 }
 
 .active{
-  color: rgb(2, 219, 248);
+  color: white;
   text-decoration: underline;
   font-weight: bold;
 }
@@ -91,7 +91,7 @@ a {
   padding: 8px 15px;
   background: rgb(11, 117, 204);
   border-radius: 30px;
-  color: white;
+  color: rgb(7,67,190);
 }
 
 section{
