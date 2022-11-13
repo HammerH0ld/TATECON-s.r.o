@@ -29,6 +29,10 @@ ul {
   color: whitesmoke;
 }
 
+.nav-link {
+  color: white;
+}
+
 .nav-links {
   display: flex;
   align-items: center;
