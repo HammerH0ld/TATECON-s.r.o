@@ -1,8 +1,9 @@
 # TATECON-s.r.o
 ---
-Naše společnost jsou lidi…
-Naším přáním je přinášet zákazníkům novinky do businessu, používat nejefektivnější metody při řízení projektů a dodávat projekty na nejnovějších technologiích.
+Tatecon s.r.o. je společnost, která se specializuje na propojování programátorů s firmami pomocí svých služeb jako prostředník. Cílem společnosti je nabídnout kvalitní a hladký proces najímání pro obě strany.
 
-Proto spolupracujeme se zkušenými lidmi, kteří mají chuť vymýšlet nové postupy, sledovat nejnovější technologické trendy a používat je při práci.
+Pro programátory nabízí Tatecon s.r.o. širokou škálu možností práce v různých oborech a odvětvích, včetně webových technologií, mobilních aplikací, umělé inteligence a mnoha dalších. Společnost se stará o všechny administrativní a logistické úkony, jako jsou schůzky s potenciálními zaměstnavateli, domlouvání mzdy, benefitů a pomáhá programátorům vybrat nejlepší možnost pro jejich kariéru.
 
-Náš sourcing tým operuje na trhu informačních technologií už více než 20 let, máme rozsáhlou databázi potenciálních kandidátů a propracovaný systém výběru.
+Pro firmy nabízí Tatecon s.r.o. přístup k široké škále talentovaných programátorů s různými dovednostmi a zkušenostmi. Společnost se stará o všechny prvotní kroky v procesu najímání, jako jsou výběr, research kandidátů a schůzky s kandidáty. To umožňuje firmám soustředit se na své hlavní činnosti a zároveň tak získat kvalitní zdroj talentovaných programátorů pro své projekty.
+
+V závěru, Tatecon s.r.o. je společností, která poskytuje komplexní služby propojování programátorů s firmami, aby byl proces najímání co nejhladší a efektivní pro obě strany.
