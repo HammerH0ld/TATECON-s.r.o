@@ -43,6 +43,7 @@ html {
 }
 
 .nav-links li a {
+  color: #197088;
   padding: 10px 30px;
   font-weight: bold;
   letter-spacing: 0.02rem;
@@ -92,12 +93,13 @@ a {
 }
 
 .ctn {
+  color:white !important;
   padding: 8px 15px;
   background: rgb(11, 117, 204);
   border-radius: 30px;
 }
 .ctn a {
-  color: white;
+  color: white !important;
 }
 
 section {
