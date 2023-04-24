@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+   <meta charset="UTF-8">
+   <meta http-equiv="X-UA-Compatible" content="IE=edge">
+   <meta name="viewport" content="width=device-width, initial-scale=1.0">
+   <title>Document</title>
+   <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.3.1/dist/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+   <link rel="stylesheet" href="style-form.css">
+</head>
+<body>
+   <main>
+      <section>
+         <form class="row g-3" method="POST" action="send_data_firms.php">
+            <div class="col-12">
+              <label for="inputEmail4" class="form-label">Název firmy</label>
+              <input type="text" class="form-control" name="firm_name" id="firm_name">
+            </div>
+            <div class="col-md-4">
+              <label for="inputPassword4" class="form-label">Kontaktní osoba</label>
+              <input type="text" class="form-control" name="contact_person" id="contact_person" placeholder="Lukáš Rathauský">
+            </div>
+            <div class="col-md-4">
+              <label for="inputAddress" class="form-label">Telefon</label>
+              <input type="tel" class="form-control" name="tel" id="tel" placeholder="739 934 064">
+            </div>
+            <div class="col-md-4">
+              <label for="inputEmail4" class="form-label">Email</label>
+              <input type="email" class="form-control" name="email" id="email">
+            </div>
+            <div class="col-12">
+              <label for="inputCity" class="form-label">Popis projektu</label>
+              <textarea class="form-control" name="project"> Super cool projekt </textarea>
+            </div>
+            <button type="submit" class="btn btn-submit"> Odeslat </button>
+          </form>
+      </section>
+   </main>
+</body>
+</html>
